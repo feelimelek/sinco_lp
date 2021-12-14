@@ -1,0 +1,14 @@
+.div-nav {
+    background-color: #e9e9e9;
+    max-width: 1154px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    padding: 12px;
+    margin: 8px 8px 16px 8px;
+}
+
+#header_estatico {
+    max-width: 1154px;
+}

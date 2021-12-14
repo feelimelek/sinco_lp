@@ -1,0 +1,50 @@
+.hr-1 {
+    color: white;
+    margin: 0;
+}
+
+.div-principal {
+    padding: 2% 9%;
+    margin: 0;
+    background-image: url('../../assets/images/01_sinco_landingpage_layout_background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.div-img-sobrepostas {
+    position: relative;
+}
+
+#imagem-35-anos {
+    width: 47%;
+    position: absolute;
+}
+
+.div-img-vermelha {
+    text-align: left;
+    position: absolute;
+    width: 47%;
+    float: right;
+    left: 42.8%;
+    margin-top: 23%;
+    justify-content: center;
+}
+
+#imagem-vermelha {
+    width: 100%;
+    position: relative;
+    /* left: 77.8%; */
+    float: right;
+}
+
+span {
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    font-size-adjust: inherit;
+    text-align: left;
+    font-family: HelveticaNeueLTS-Md;
+    margin: 40px 35px 35px 30px;
+}
