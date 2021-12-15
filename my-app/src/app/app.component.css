@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: HelveticaNeue-Condensed-Bold;
-    src: url("../assets/fonts/HelveticaNeue-CondensedThin.ttf");
+    src: url("../assets/fonts/HelveticaNeue-CondensedBold.ttf");
 }
 
 @font-face {
@@ -31,15 +31,15 @@
 
 @font-face {
     font-family: HelveticaNeueLTStd-Hv;
+    src: url("../assets/fonts/HelveticaNeueLTStd-Hv.otf");
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Md;
     src: url("../assets/fonts/HelveticaNeueLTStd-Md.otf");
 }
 
 @font-face {
-    font-family: HelveticaNeueLTS-Md;
-    src: url("../assets/fonts/HelveticaNeueLTStd-Md.otf");
-}
-
-@font-face {
-    font-family: HelveticaNeueLTS-Th;
+    font-family: HelveticaNeueLTStd-Th;
     src: "assets/fonts/HelveticaNeueLTStd-Th.otf";
 }

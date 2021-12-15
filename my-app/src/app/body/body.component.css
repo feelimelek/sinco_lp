@@ -4,22 +4,27 @@
 }
 
 .div-principal {
-    padding: 2% 9%;
+    padding: 4% 9%;
     margin: 0;
     background-image: url('../../assets/images/01_sinco_landingpage_layout_background.png');
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: fit-content;
+
 } 
 
 .div-img-sobrepostas {
     position: relative;
+    height: fit-content;
+    margin: 4% 0 8% 0;
+    padding: 0;
 }
 
 #imagem-35-anos {
     width: 47%;
     position: absolute;
+    z-index: 1;
 }
 
 .div-img-vermelha {
@@ -27,9 +32,12 @@
     position: absolute;
     width: 47%;
     float: right;
-    left: 42.8%;
-    margin-top: 23%;
+    left: 37.8%;
+    top: 40%;
+    padding: 0;
     justify-content: center;
+    z-index: 2;
+    height: fit-content;
 }
 
 #imagem-vermelha {
@@ -39,12 +47,106 @@
     float: right;
 }
 
-span {
+h1 {
     color: white;
     position: absolute;
-    font-size: 22px;
-    font-size-adjust: inherit;
+    /* font-size: 22px; */
+    font-size: 120%;
     text-align: left;
-    font-family: HelveticaNeueLTS-Md;
-    margin: 40px 35px 35px 30px;
+    font-family: HelveticaNeueLTStd-Md;
+    line-height: 1.25;
+    margin: 10%;
 }
+
+#imagem-pontinhos-1 {
+    width: 18%;
+    position: relative;
+    left: 21.5%;
+    top: -8%;
+    margin-top: 40%;
+    z-index: 0;
+}
+
+.div-texto-paragrafo-1 {
+    margin: 0px 0 8% 0;
+    margin-bottom: 8%;
+    padding: 0 0 0 12px;
+}
+
+p {
+    font-family: HelveticaNeue;
+    line-height: 1.25;
+    text-align: left;
+    font-size: 84.375%;
+    letter-spacing: -0.03rem;
+}
+
+b {
+    font-family: HelveticaNeueLTStd-Hv;
+}
+
+.b-red {
+    color: #d93a2f;
+}
+
+.div-texto-2-e-img {
+    padding: 0;
+    display: flex;
+    margin: 4% 0 4% 0;
+}
+
+.div-texto-paragrafo-2 {
+    padding: 5% 0px 0px 12px;
+    margin: 0;
+    flex: left;
+    width: fit-content;
+}
+
+.div-img-predio-1 {
+    padding: 0;
+    width: 50%;
+    margin: 0;
+}
+
+#img-predio-1 {
+    flex: right;
+    /* justify-content: baseline; */
+    width: 129%;
+    height: auto;
+}
+
+.div-texto-paragrafo-3 {
+    padding: 4% 0px 4% 12px;
+    margin: 0;
+    width: fit-content;
+}
+
+.div-texto-paragrafo-3 > p{
+    letter-spacing: 0;
+}
+
+.div-titulo1-e-linha-vermelha {
+    padding: 2% 0px 2% 0px;
+    display: flex;
+    position: relative;
+    justify-content: baseline;
+}
+
+.span-linha-vermelha-vertical-1 {
+    position: relative;
+    width: 0.40%;
+    right: 2.5%;
+    top: 1%;
+    padding: 0.02%;
+}
+
+.linha-vermelha-vertical-1 {
+    position: relative;
+}
+
+h2 {
+    font-family: HelveticaNeueLTStd-Md;
+    font-size: 125%;
+}
+
+
