@@ -12,6 +12,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: fit-content;
+    width: 100%;
+    position: absolute;
 
 } 
 
@@ -20,6 +22,8 @@
     height: fit-content;
     margin: 4% 0px 8% 0px;
     padding: 0;
+    display: flex;
+    width: 118%;
 }
 
 #imagem-35-anos {
@@ -37,8 +41,12 @@
     top: 40%;
     padding: 0;
     justify-content: center;
+    vertical-align: middle;
+    align-items: center;
     z-index: 2;
     height: fit-content;
+    margin: auto;
+    display: flex;
 }
 
 #imagem-vermelha {
@@ -52,18 +60,19 @@ h1 {
     color: white;
     position: absolute;
     /* font-size: 22px; */
-    font-size: 120%;
+    font-size: 3.5vw;
     text-align: left;
     font-family: HelveticaNeueLTStd-Md;
     line-height: 1.25;
-    margin: 10%;
+    white-space: nowrap;
+    justify-content: center;;
 }
 
 #imagem-pontinhos-1 {
     width: 18%;
     position: relative;
     left: 21.5%;
-    top: -8%;
+    top: -7%;
     margin-top: 40%;
     z-index: 0;
 }
@@ -71,19 +80,23 @@ h1 {
 .div-texto-paragrafo-1 {
     margin: 0px 0 8% 0;
     margin-bottom: 8%;
-    padding: 0 0 0 12px;
+    padding: 0 0 0 6px;
 }
 
 p {
     font-family: HelveticaNeue;
     line-height: 1.25;
     text-align: left;
-    font-size: 84.375%;
+    /* font-size: 84.374%; */
+    font-size: 2.18vw;
     letter-spacing: -0.03rem;
+    white-space: nowrap;
 }
 
 b {
     font-family: HelveticaNeueLTStd-Hv;
+    font-size: 2.18vw;
+    white-space: nowrap;
 }
 
 .b-red {
@@ -97,7 +110,7 @@ b {
 }
 
 .div-texto-paragrafo-2 {
-    padding: 5% 0px 0px 12px;
+    padding: 4% 6px 0px 6px;
     margin: 0;
     float: left;
     width: fit-content;
@@ -112,14 +125,14 @@ b {
 #img-predio-1 {
     float: right;
     /* justify-content: baseline; */
-    width: 129%;
+    width: 135%;
     height: auto;
     position: relative;
-    right: -37%;
+    right: -25%;
 }
 
 .div-texto-paragrafo-3 {
-    padding: 4% 0px 4% 12px;
+    padding: 4% 0px 4% 6px;
     margin: 0;
     width: fit-content;
 }
@@ -149,7 +162,8 @@ b {
 
 h2 {
     font-family: HelveticaNeueLTStd-Md;
-    font-size: 125%;
+    font-size: 3.3vw;
+    white-space: nowrap;
 }
 
 .div-texto-paragrafo-4 {
@@ -160,8 +174,8 @@ h2 {
 
 .div-texto-5-e-img {
     padding: 0;
-    margin: 4% 0 4% 0;
-    height: fit-content;
+    margin: 4% 0 0 0;
+    height: auto;
     position: relative;
     width: 100%;
     display: flex;
@@ -170,10 +184,10 @@ h2 {
 .div-img-predio-2 {
     padding: 0;
     width: fit-content;
-    height: fit-content;
+    /* height: fit-content; */
     margin: 0;
     position: relative;
-    right: 5%;
+    right: 7%;
 }
 
 #img-predio-2 {
@@ -187,10 +201,10 @@ h2 {
 }
 
 .div-texto-paragrafo-5 {
-    padding: 2% 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0;
     flex: right;
-    width: 60%;
+    width: 50%;
 }
 
 .div-texto-paragrafo-5 > p {
@@ -201,7 +215,7 @@ h2 {
 .span-linha-vermelha-horizontal-1 {
     margin: 0;
     width: 70%;
-    padding: 1% 0;
+    padding: 0;
 }
 
 .div-img-bolinhas-2 {
@@ -210,8 +224,8 @@ h2 {
     padding: 0;
     position: relative;
     margin: 0;
-    left: 7%;
-    top: -13%;
+    left: 8%;
+    bottom: 19%;
     z-index: 0;
 }
 
@@ -224,23 +238,24 @@ h2 {
 
 .div-texto-paragrafo-6 {
     padding: 2% 0px 0px 0px;
-    margin: 0;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
+    bottom: 5%;
 }
 
 .div-texto-6-e-img {
     padding: 0 0 0 0;
-    margin: 4% 0 0 0;
-    height: 85vh;
+    margin: 0;
+    height: fit-content;
     position: relative;
     width: 100%;
     display: flex;
 }
 
 .div-texto-paragrafo-7-8-9 {
-    padding: 2% 0px 2% 0px;
+    padding: 0 0px 2% 0px;
     margin: 0;
     width: 100%;
     height: fit-content;
@@ -252,7 +267,7 @@ h2 {
 
 .div-img-predio-3 {
     padding: 0;
-    width: 100%;
+    width: 115%;
     height: fit-content;
     margin: 0;
     position: relative;
@@ -295,8 +310,8 @@ h2 {
     width: 33%;
     height: fit-content;
     padding: 0;
-    position: relative;
-    top: -15%;
+    position: absolute;
+    top: -9%;
     left: 73%;
     margin: 0;
     overflow: hidden;
@@ -313,9 +328,9 @@ h2 {
     width: 33%;
     height: fit-content;
     padding: 0;
-    position: relative;
+    position: absolute;
     left: 73%;
-    bottom: 112%;
+    top: 85%;
     margin: 0;
     overflow: hidden;
 }
@@ -326,3 +341,4 @@ h2 {
     margin-top: 40%;
     z-index: 0;
 }
+
