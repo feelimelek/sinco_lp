@@ -1,3 +1,50 @@
+/* Fontes */
+@font-face {
+    font-family: Helvetica;
+    src: url("../../assets/fonts/Helvetica.ttc");
+}
+
+@font-face {
+    font-family: HelveticaNeue-Condensed-Bold;
+    src: url("../../assets/fonts/HelveticaNeue-CondensedBold.ttf");
+}
+
+@font-face {
+    font-family: HelveticaNeue-Condensed-Thin;
+    src: url("../../assets/fonts/HelveticaNeue-CondensedThin.ttf");
+}
+
+@font-face {
+    font-family: HelveticaNeue-Condensed;
+    src: url("../../assets/fonts/HelveticaNeue-Condensed.ttf");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/my-app/src/assets/fonts/HelveticaNeue.ttf");
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Blk;
+    src: url("../../assets/fonts/HelveticaNeueLTStd-Blk.otf");
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Hv;
+    src: url("../../assets/fonts/HelveticaNeueLTStd-Hv.otf");
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Md;
+    src: url("../../assets/fonts/HelveticaNeueLTStd-Md.otf");
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Th;
+    src: url("../../assets/fonts/HelveticaNeueLTStd-Th.otf");
+}
+
+
 .hr-1 {
     color: white;
     margin: 0;
@@ -62,16 +109,16 @@ h1 {
     /* font-size: 22px; */
     font-size: 3.5vw;
     text-align: left;
-    font-family: HelveticaNeueLTStd-Md;
+    font-family: HelveticaNeueLTStd-Md, Helvetica;
     line-height: 1.25;
     white-space: nowrap;
     justify-content: center;;
 }
 
 #imagem-pontinhos-1 {
-    width: 18%;
+    width: 18vw;
     position: relative;
-    left: 21.5%;
+    left: 21vw;
     top: -7%;
     margin-top: 40%;
     z-index: 0;
@@ -84,7 +131,7 @@ h1 {
 }
 
 p {
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica;
     line-height: 1.25;
     text-align: left;
     /* font-size: 84.374%; */
@@ -94,7 +141,8 @@ p {
 }
 
 b {
-    font-family: HelveticaNeueLTStd-Hv;
+    font-family: HelveticaNeueLTStd-Hv, Helvetica;
+    font-weight: 1px;
     font-size: 2.18vw;
     white-space: nowrap;
 }
@@ -107,6 +155,7 @@ b {
     padding: 0;
     display: flex;
     margin: 4% 0 4% 0;
+    width: 100%;
 }
 
 .div-texto-paragrafo-2 {
